@@ -62,8 +62,11 @@ ts-node gumdrop/packages/cli/src/gumdrop-cli.ts create -e devnet --keypair ./~/.
 
 * So you cannot add new accounts to the whitelist after your have deployed the tokens code.
 * This will require you to create a new spl-token contract and redeploy everything.
-
-
+* In the settings:
+  * There are ways to have a hidden NFTs before the sale finishes: Hidden Settings
+  * For Whitelist: The only important thing to add is the spl-token account address
+    That can be found using ```spl-token accounts```
+* The mint live date will launch the presale mint first, the public sale will launch after 24 hours
 
 
 
