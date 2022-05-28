@@ -47,10 +47,11 @@ The list is a json file containing the wallet address and the amount of token th
 Required items:
 
 1) keygen pair: the solana account you created
-```./~/.config/solana/devnet.json```
+  ```./~/.config/solana/devnet.json```
 
-2) spl-token account
-``` spl-token accounts```
+2) spl-token account -- the contract
+  ``` spl-token accounts``` 
+  e.g JEEqZsbHRkGVt2aYQDEhNzY276zbnz2SSSEkbqoJAf6Z 
 
 Run the code:
 
