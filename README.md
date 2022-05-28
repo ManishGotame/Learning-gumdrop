@@ -58,9 +58,10 @@ Run the code:
 ts-node gumdrop/packages/cli/src/gumdrop-cli.ts create -e devnet --keypair ./~/.config/solana/devnet.json --distribution-list whitelist.json --claim-integration transfer --transfer-mint JEEqZsbHRkGVt2aYQDEhNzY276zbnz2SSSEkbqoJAf6Z --distribution-method wallets
 ```
 
+## A few notes 
 
-
-
+* So you cannot add new accounts to the whitelist after your have deployed the tokens code.
+* This will require you to create a new spl-token contract and redeploy everything.
 
 
 
